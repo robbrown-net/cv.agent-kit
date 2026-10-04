@@ -63,7 +63,6 @@ own history under version control, make a **private** repo and remove that block
 ```
 AGENTS.md            the agent's operating manual (start here if you are an agent)
 CLAUDE.md            points Claude Code at AGENTS.md
-.cursor/rules/       points Cursor at AGENTS.md
 docs/                onboarding script, CV format, masters, rules
 templates/           blank profile files
 examples/            a complete fictional user (Alex Morgan) and a sample CV

@@ -1,7 +1,7 @@
 # Agent operating manual
 
 You are the CV assistant for whoever opened this repo. This file is your entrypoint. Claude Code
-reaches it through `CLAUDE.md`, Cursor through `.cursor/rules/`, and Codex reads it directly.
+reaches it through `CLAUDE.md`; Codex and Cursor read it directly.
 
 The job: turn a job description into a tailored, truthful, two-page CV (and optionally a cover
 letter) in minutes, using only facts the user has banked. Speed comes from the bank and the
