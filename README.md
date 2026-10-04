@@ -25,8 +25,8 @@ The rule that makes it accurate: **a number that is not in your bank never reach
 ## Quick start
 
 ```bash
-git clone https://github.com/<you>/cv-agent-kit.git
-cd cv-agent-kit
+git clone https://github.com/robbrown-net/cv.agent-kit.git
+cd cv.agent-kit
 npm install
 ```
 
