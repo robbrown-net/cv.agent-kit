@@ -1,0 +1,20 @@
+{
+  "name": "cv-agent-kit",
+  "version": "0.1.0",
+  "description": "Render a markdown CV to an ATS-friendly .docx and .pdf",
+  "private": false,
+  "license": "MIT",
+  "bin": {
+    "render-cv": "bin/render_cv.js"
+  },
+  "scripts": {
+    "render": "node bin/render_cv.js",
+    "pdf": "node bin/render_cv.js --pdf-only"
+  },
+  "dependencies": {
+    "docx": "^8.5.0",
+    "mammoth": "^1.13.0",
+    "pdfjs-dist": "^6.4.299",
+    "pdfmake": "^0.3.11"
+  }
+}

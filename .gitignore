@@ -1,0 +1,19 @@
+# --- Personal data: never committed to a public fork ---
+# To version your own data, use a PRIVATE repo and delete this block.
+config/user.json
+profile/*
+!profile/README.md
+!profile/*.example.json
+pending/*
+applications/*
+archive/*
+inbox/*
+!*/.gitkeep
+
+# --- Build output ---
+*.docx
+*.pdf
+!examples/**/*.pdf
+node_modules/
+__pycache__/
+.DS_Store

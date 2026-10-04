@@ -1,0 +1,15 @@
+{
+  "_schema": "Either a JSON list of items or this object. Item: subject, a (version A), b (version B), wins (what may be written, or UNRESOLVED / do not use), why. unavailable: claims or numbers that must never be written. Copy to contested.json to activate. Keys starting with _ are ignored.",
+  "contested": [
+    {
+      "subject": "Alex Morgan onboarding duration at Acme Payments",
+      "a": "15 weeks (acme-01, high confidence)",
+      "b": "28 weeks, as written in an older CV",
+      "wins": "15 weeks",
+      "why": "15 weeks is the banked figure; 28 weeks has no source. Never write 28."
+    }
+  ],
+  "unavailable": [
+    "Total company headcount at Acme Payments. Never banked."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "_comment": "Copy to config/user.json during onboarding. config/user.json is gitignored.",
+  "name": "Alex Morgan",
+  "contact": {
+    "email": "alex.morgan@example.com",
+    "phone": "+44 7700 900000",
+    "location": "London, UK",
+    "website": "",
+    "linkedin": "linkedin.com/in/alex-morgan-example"
+  },
+  "default_tagline": "Operations Leader | Fintech | Scale-ups",
+  "cv": {
+    "max_pages": 2,
+    "paper": "A4",
+    "font": "Arial",
+    "spelling": "en-GB",
+    "deliver": ["docx", "pdf"]
+  },
+  "style": {
+    "no_em_dashes": true,
+    "no_contractions": true,
+    "extra_forbidden_strings": []
+  },
+  "targets": {
+    "titles": ["Head of Operations", "Director of Operations"],
+    "seniority": "director",
+    "sectors": ["fintech", "payments"],
+    "locations": ["London", "Remote (UK)"],
+    "basis": "either"
+  },
+  "never_claim": []
+}

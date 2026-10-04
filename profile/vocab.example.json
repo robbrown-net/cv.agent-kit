@@ -1,0 +1,16 @@
+{
+  "_schema": "All keys optional. merge_map: raw theme tag -> controlled tag. definitions: controlled tag -> one-sentence definition. employer_short: full employer name -> short label. figure_exclude: regexes for numeric-looking labels that are not figures. Copy to vocab.json to activate. Keys starting with _ are ignored.",
+  "merge_map": {
+    "cost-reduction": "budget-and-cost",
+    "budget": "budget-and-cost",
+    "lean": "measurement"
+  },
+  "definitions": {
+    "budget-and-cost": "Budgets held or influenced, savings released and business cases.",
+    "measurement": "Metrics, baselines and improvement evidence."
+  },
+  "employer_short": {
+    "Acme Payments Ltd": "Acme"
+  },
+  "figure_exclude": ["\\bMK\\d\\b"]
+}
